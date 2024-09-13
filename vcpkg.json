@@ -1,3 +1,7 @@
 {
-
+  "name": "ortools-client",
+  "version-string": "0.0.1",
+  "dependencies": [
+    "or-tools"
+  ]
 }
