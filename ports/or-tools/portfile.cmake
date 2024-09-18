@@ -10,7 +10,7 @@ vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}"
         OPTIONS
         -DBUILD_SHARED_LIBS=OFF
-        -DUSE_SCIP=O
+        -DUSE_SCIP=ON
         -DUSE_GLPK=ON
         -DUSE_GLOP=OFF
         -DUSE_BOP=OFF
