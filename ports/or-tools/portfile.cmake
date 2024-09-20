@@ -9,21 +9,15 @@ vcpkg_from_github(
 vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}"
         OPTIONS
+        -DBUILD_DEPS=OFF #All dependencies should be provided by user or through vcpkg
+        -DBUILD_SAMPLES=OFF
         -DBUILD_SHARED_LIBS=OFF
         -DUSE_SCIP=ON
         -DUSE_GLPK=ON
-        -DUSE_GLOP=OFF
-        -DUSE_BOP=OFF
-        -DUSE_GUROBI=OFF
-        -DUSE_CPLEX=OFF
-        -DBUILD_DEPS=OFF
-        -DBUILD_SAMPLES=OFF
         -DBUILD_FLATZINC=OFF
         -DBUILD_EXAMPLES=OFF
-        -DBUILD_DEPS=OFF
         -DBUILD_ZLIB=OFF
         -DUSE_HIGHS=OFF
-        -DBUILD_MATH_OPT=OFF
         -DBUILD_TESTING=OFF
 )
 
