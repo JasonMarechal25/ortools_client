@@ -3,11 +3,5 @@
   "version-string": "0.0.1",
   "dependencies": [
     "or-tools"
-  ],
-  "overrides": [
-    {
-      "name": "abseil",
-      "version": "20240116.2"
-    }
   ]
 }
