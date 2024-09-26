@@ -8,14 +8,17 @@
     {
       "kind": "git",
       "repository": "https://github.com/AntaresSimulatorTeam/antares-vcpkg-registry",
-      "baseline": "0bc390e78c7d4a71fd475bd525fc6786a99955f6",
+      "baseline": "fe49729d40ae6a9cf4573aa6abfb08f482c95232",
+      "reference": "or-tools-rte",
       "packages": [
+        "abseil",
         "coin-or-cbc",
         "coin-or-cgl",
         "coin-or-clp",
         "coin-or-osi",
         "coinutils",
         "or-tools",
+        "or-tools-rte",
         "protobuf",
         "scip"
       ]
