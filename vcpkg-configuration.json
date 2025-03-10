@@ -1,14 +1,14 @@
 {
   "default-registry": {
     "kind": "git",
-    "baseline": "b8a9371ae5a920b021132f443cc5658e82ac7551",
+    "baseline": "d5ec528843d29e3a52d745a64b469f810b2cedbf",
     "repository": "https://github.com/microsoft/vcpkg"
   },
   "registries": [
     {
       "kind": "git",
       "repository": "https://github.com/AntaresSimulatorTeam/antares-vcpkg-registry",
-      "baseline": "fe49729d40ae6a9cf4573aa6abfb08f482c95232",
+      "baseline": "3d2867691a75fd3612d97c8540de19eb8e6c67ca",
       "reference": "or-tools-rte",
       "packages": [
         "abseil",
